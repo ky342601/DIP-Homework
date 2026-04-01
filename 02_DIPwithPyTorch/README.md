@@ -1,15 +1,15 @@
 # Assignment 2 - DIP with PyTorch
 
 ---
-### Training
-## 1. 使用 PyTorch 实现泊松图像编辑
+## Training
+### 1. 使用 PyTorch 实现泊松图像编辑
 填充'run_blending_gradio.py'中的[多边形生成掩码](run_blending_gradio.py#L95)与[Laplacian距离计算](run_blending_gradio.py#L115)部分，然后运行：
 
 ```run
 python run_blending_gradio.py
 ```
 
-## 2. Pix2Pix implementation.
+### 2. Pix2Pix implementation.
 实现带有完全卷积图层的Pix2Pix，填充 [全卷积神经网络](FCN_network.py#L3)部分，然后在`./Pix2Pix`下运行：
 
 ```bash
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ---
-### Results
+## Results
 
 以下为使用facades_dataset的部分训练结果：
 
