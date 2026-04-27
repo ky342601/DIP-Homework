@@ -1,0 +1,5 @@
+numpy
+opencv-python
+os
+matplotlib
+pytorch3d
